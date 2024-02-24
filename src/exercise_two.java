@@ -5,7 +5,9 @@ public class exercise_two {
         if(str.length() == 0 || str.length() ==1){
             return true;
         }
+        //1st index and last is equal
         if(str.charAt(0) == str.charAt(str.length()-1)){
+            //check for next index
             return isPalindrome(str.substring(1,str.length()-1));
         }
         return false;
