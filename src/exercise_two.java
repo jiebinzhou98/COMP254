@@ -10,5 +10,6 @@ public class exercise_two {
             s[i] = stack.pop();
         }
         return new <E>(s);
+
     }
 }

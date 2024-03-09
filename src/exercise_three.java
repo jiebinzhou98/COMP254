@@ -5,6 +5,7 @@ public class exercise_three {
             front = temp;
         }else{
             tail.next = temp;
+
         }
         tail = temp;
         length ++;
